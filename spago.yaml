@@ -1,0 +1,17 @@
+package:
+  name: jelly-hot-module-replacement
+  dependencies:
+    - aff
+    - console
+    - effect
+    - foldable-traversable
+    - jelly
+    - jelly-signal
+    - prelude
+  test:
+    main: Test.Main
+    dependencies: []
+workspace:
+  packageSet:
+    registry: 63.1.1
+  extraPackages: {}
