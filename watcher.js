@@ -1,9 +1,6 @@
 import chokidar from "chokidar";
 import { exec } from "child_process";
 
-// const watcher = chokidar.watch("./test/Test/Main.purs", {
-//   persistent: true,
-// });
 const watcher = chokidar.watch("./src/Main.purs", {
   persistent: true,
 });

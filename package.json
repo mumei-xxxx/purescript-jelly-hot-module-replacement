@@ -17,7 +17,7 @@
   "scripts": {
     "dev:vite": "vite",
     "watch": "node watcher.js",
-    "dev": "npm run build:spago && node watcher.js & npm run dev:vite",
+    "dev": "npm run build:spago && npm run watch & npm run dev:vite",
     "build:spago": "spago bundle --outfile ./public/index.js",
     "preview": "vite preview",
     "test": "spago test"
